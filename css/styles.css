@@ -1,0 +1,121 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/joyeuse-saint-valentin-v4-print.jpg');
+    background-size: cover;
+    height: 40vh;
+    padding: 50px;
+}
+div.div {
+    background: url('../images/fond.png');
+    color: rgb(223, 120, 120);
+}
+
+/* page de bienvenue */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 80%;
+    width: 1000px;
+    margin-left: 0px;
+}
+
+nav.nav li a {
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+div.dive {
+    background: url('../images/fond.png');
+    color: rgb(223, 120, 120);
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+.section-title {
+    font-size: px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+}
+
+
+
+
+
+/* Mon amour */
+
+.all-plants {
+    margin: 100px;
+}
+
